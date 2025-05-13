@@ -1,0 +1,21 @@
+p{
+    color: 	#3C3C3C;
+}
+
+a.kynlink {
+    padding: 0px 30px;
+    margin-left: 30x;
+    border-radius: 20px;
+    color:cornflowerblue;
+}
+a.kynlink:hover{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+div.kyngrey{
+    background-color: #BEBEBE;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
