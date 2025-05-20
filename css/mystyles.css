@@ -22,7 +22,6 @@ div.kyngrey{
 
 .kynbg{
     background-image: url(../assets/foto/wbg.jpeg);
-
 }
 
 .kynserif{
@@ -32,4 +31,8 @@ div.kyngrey{
 
 .kyncenter {
     text-align: center;
+}
+
+.kynright{
+    text-align: right;
 }
