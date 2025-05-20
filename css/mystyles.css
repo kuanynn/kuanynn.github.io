@@ -20,11 +20,16 @@ div.kyngrey{
     border: 1px solid gray;
 }
 
-section#contact{
-    background-image: url(/assets/foto/wbg.jpeg)!important;
+.kynbg{
+    background-image: url(../assets/foto/wbg.jpeg);
+
 }
 
 .kynserif{
   font-family: "Noto Serif TC", serif;
   
+}
+
+.kyncenter {
+    text-align: center;
 }
