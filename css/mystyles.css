@@ -19,3 +19,12 @@ div.kyngrey{
     border-radius: 10px;
     border: 1px solid gray;
 }
+
+section#contact{
+    background-image: url(/assets/foto/wbg.jpeg)!important;
+}
+
+.kynserif{
+  font-family: "Noto Serif TC", serif;
+  
+}
