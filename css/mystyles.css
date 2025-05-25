@@ -1,23 +1,29 @@
+.aboutp{
+    font-size: 25px;
+    text-indent: 0.5em;
+    font-weight: bold;
+}
+
 p{
     color: 	#3C3C3C;
 }
 
 a.kynlink {
-    padding: 0px 30px;
-    margin-left: 30x;
+    padding: 0px 5px;
+    margin-left: 5px;
     border-radius: 20px;
-    color:cornflowerblue;
+    color:pink;
 }
 a.kynlink:hover{
-    background-color: cornflowerblue;
+    background-color:pink;
     color: aliceblue;
 }
 
-div.kyngrey{
-    background-color: #BEBEBE;
+div.kynpink{
+    background-color: #FFECEC;;
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid gray;
+    border: 1px solid #FFECEC;;;
 }
 
 .kynbg{
@@ -35,4 +41,8 @@ div.kyngrey{
 
 .kynright{
     text-align: right;
+}
+
+.kyncolor{
+    background-color: 	#FFECEC;
 }

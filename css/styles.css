@@ -4864,8 +4864,8 @@ textarea.form-control-lg {
   border-top-width: 0;
 }
 .list-group-item + .list-group-item.active {
-  margin-top: calc(-1 * var(--bs-list-group-border-width));
-  border-top-width: var(--bs-list-group-border-width);
+  margin-top: var(--bs-list-group-active-bg);
+  border-top-width: var(--bs-list-group-active-bg);
 }
 
 .list-group-horizontal {
@@ -7649,7 +7649,7 @@ textarea.form-control-lg {
 }
 
 .mb-0 {
-  margin-bottom: 0 !important;
+  margin-bottom: 5 !important;
 }
 
 .mb-1 {
@@ -8037,7 +8037,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: pink;
+  color: 	pink;
 }
 
 .text-secondary {
@@ -8127,8 +8127,8 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  --bs-bg-opacity: 1;
-  background-color: pink ;
+    --bs-bg-opacity: 1;
+    background-color:pink;
 }
 
 .bg-secondary {
