@@ -74,9 +74,9 @@ div.kynpink{
 
 .back-to-top {
   position: fixed;
-  bottom: 20px;         /* 距離底部20px */
-  right: 20px;          /* 距離右側20px */
-  background-color:pink;  /* 淺粉紅（可換） */
+  bottom: 20px;         
+  right: 20px;          
+  background-color:pink;
   color: white;
   padding: 10px 15px;
   border-radius: 30px;
