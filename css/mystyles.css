@@ -71,3 +71,21 @@ div.kynpink{
 .kyncard{
     text-transform:capitalize;
 }
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;         /* 距離底部20px */
+  right: 20px;          /* 距離右側20px */
+  background-color:pink;  /* 淺粉紅（可換） */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 30px;
+  
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.back-to-top:hover {
+  background-color: pink
+}
