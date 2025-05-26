@@ -20,10 +20,11 @@ a.kynlink:hover{
 }
 
 div.kynpink{
-    background-color: #FFECEC;
-    width: 780px;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: #FFECEC;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 
 .kynbg{
@@ -32,7 +33,22 @@ div.kynpink{
 
 .kynserif{
   font-family: "Noto Serif TC", serif;
-  
+}
+
+.kyncrop{
+    object-fit: cover;
+    border-radius: 15px;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    margin-bottom: 1%;
+}
+
+.kynfont{
+    font-family: "Ancizar Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-transform:capitalize;
 }
 
 .kyncenter {
@@ -52,6 +68,6 @@ div.kynpink{
     color: gray;
 }
 
-h4{
-
+.kyncard{
+    text-transform:capitalize;
 }

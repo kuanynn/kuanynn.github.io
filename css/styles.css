@@ -4187,7 +4187,7 @@ textarea.form-control-lg {
   border-top: inherit;
   border-bottom: inherit;
 }
-.card > .list-group:first-child {
+.card > .:first-child {
   border-top-width: 0;
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
@@ -4198,7 +4198,7 @@ textarea.form-control-lg {
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
 }
 .card > .card-header + .list-group,
-.card > .list-group + .card-footer {
+.card > . + .card-footer {
   border-top: 0;
 }
 
@@ -4805,7 +4805,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   border-radius: var(--bs-list-group-border-radius);
-  width: 780px;
+  width: 100%;
 }
 
 .list-group-numbered {
@@ -10953,7 +10953,7 @@ section.resume-section {
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  max-width: 100rem;
+  max-width: 100%;
 }
 
 section.resume-section .resume-section-content {
